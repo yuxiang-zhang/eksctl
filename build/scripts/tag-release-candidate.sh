@@ -21,7 +21,7 @@ candidate_for_version=$(release_generate print-version)
 release_notes_file=$(ensure_release_notes "${candidate_for_version}")
 
 check_prereqs
-check_origin
+# check_origin
 
 git checkout "${default_branch}"
 check_current_branch "${default_branch}"

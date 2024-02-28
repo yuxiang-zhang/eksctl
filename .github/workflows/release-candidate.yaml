@@ -27,5 +27,7 @@ jobs:
         uses: ./.github/actions/setup-identity
         with:
           token: "${{ secrets.EKSCTLBOT_TOKEN }}"
+          name: Yu Xiang Zhang
+          email: yxz.get@gmail.com
       - name: Push tag and open PR to default branch
         run: make prepare-release-candidate
