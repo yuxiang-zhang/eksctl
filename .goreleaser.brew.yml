@@ -1,7 +1,9 @@
 brews:
-  - tap:
-      owner: weaveworks
+  - repository:
+      owner: yuxiang-zhang
       name: homebrew-tap
+      pull_request:
+        enabled: true
 
     commit_author:
       name: eksctl-bot
